@@ -1,0 +1,26 @@
+.error {
+  display: flex;
+  border: 3px solid red;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  margin: 40vh auto;
+  animation: wiggle 300ms 1s 8 ease-out;
+}
+.error h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(10deg);
+  }
+}

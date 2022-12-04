@@ -1,0 +1,29 @@
+
+
+.container {
+    width: 80%;
+    border-radius: 4rem;
+    margin: 9vh auto;
+    border: 4px solid black;
+    text-align: center;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5)
+}
+
+
+
+.container h1{
+    color:rgb(58, 54, 62);
+    font-style: oblique;
+}
+
+
+.container img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    padding-left: 3rem;
+}

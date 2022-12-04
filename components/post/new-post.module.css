@@ -1,0 +1,66 @@
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 10vh;
+    display: grid;
+    width: 80vw;
+    height: 70vh;
+    text-align: center;
+    border: 8px white solid;
+    border-radius: 3rem;
+}
+
+.main form {
+    padding: 0;
+    display: grid;
+    grid-auto-rows: 2s.5rem;
+    grid-row-gap: 0.5rem;
+}
+
+.main input[type="file"] {
+    align-self: center  ;
+    justify-self: center;
+}
+
+.main input[type="text"] {
+    border-radius: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    width: 60vw
+
+}
+
+.main textarea {
+    border-radius: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    width: 60vw;
+    padding: 0.4rem
+}
+
+.main label{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+.main button {
+    width: 7rem;
+    align-self: center;
+    justify-self: center;
+    border: 3px solid darkblue;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: white;
+}
+
+.main button:active,
+.main button:hover {
+    color:white;
+    background-color: darkcyan;
+    cursor: pointer;
+}

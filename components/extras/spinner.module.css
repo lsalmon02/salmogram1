@@ -1,0 +1,25 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.spinner {
+    padding: 0;
+    animation: spin 1400ms infinite ;
+    width: 19vw;
+
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotateZ(0);
+    } 50% {
+        transform: rotateZ(180deg);
+    } 100% {
+        transform: rotateZ(360deg);
+    }
+}
